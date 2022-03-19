@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: rgb(55,81,126);
+    /* justify-content: center; */
+    text-align: center;
+    /* margin: auto; */
+    transition: all 1s ease-in-out 0s;
+}
+.pin-pon{
+    margin-top: 20px;
+}
+.bi-arrow-down{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(71,178,228);
+    color: rgb(71,178,228);
+}
+.mover{
+    animation: move 2s linear infinite alternate-reverse both;
+}
+@keyframes move {
+    0% {
+        transform: translateY(-10px);
+        color: white;
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+.bi-box-seam{
+    font-size: 50px;
+    color: white;
+}
+form{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    line-height: 50px;
+}
+form label{
+    position: relative;
+    display: block;
+}
+.real-form{
+    background-color: rgb(64,89,132);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width:300px;
+}
+#email{
+    margin: 30px 10px;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px rgb(71,178,228) solid;
+}
+#password{
+    margin: 30px 0px;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px rgb(71,178,228) solid;
+}
+button{
+    padding: 10px;
+    font-size: 14px;
+    background-color:rgb(55,81,126);
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid rgb(71,178,228);
+}
+button a{
+    color: white ;
+    text-decoration: none;
+}
+button:hover{
+    background-color:rgb(71,178,228) ;
+    transition: all 1s ease-in-out 0s;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+.emailText,
+.passText{
+    font-weight: 300;
+    font-style: italic;
+}
+div.valid .emailText,
+div.valid .passText{
+    color: greenyellow;
+}
+
+div.invalid .emailText,
+div.invalid .passText{
+    color: red;
+}
+div.valid::before,
+div.invalid::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 18px;
+    right: 5px;
+    z-index: 100;
+}
+div.valid::before{
+    background: url('check.png') no-repeat center /cover;
+    padding: 6px;
+    margin-top: 13px;
+}
+div.invalid::before{
+    background: url('error.webp') no-repeat center /cover;
+    margin-top: 13px;
+}

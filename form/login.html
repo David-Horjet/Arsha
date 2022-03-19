@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="no-edit.css">
+    <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="div">
+            <div class="anime">
+                <i class="bi bi-arrow-down"></i>
+            </div>
+             <br>
+            <i class="bi bi-box-seam"></i>
+            <h1>ARSHA</h1>
+        </div>
+        <form action="">
+            <div class="emailBox">
+                <input type="email" id="email" placeholder="Enter your email Address">
+                <br>
+                <span class="emailText"></span>
+            </div>
+            <div class="passBox ">
+                <input type="password" id="password" placeholder="Enter your password">
+                <br>
+                <span class="passText"></span>
+            </div>
+            <button><a href="/index.html">LOGIN</a></button>
+            <div class="forgot"><a href="#">Forgot Password?</a></div>
+        </form>
+    </div>
+    <script>
+        const email = document.getElementById("email")
+        const password = document.getElementById("password")
+
+
+        email.addEventListener('input', () => {
+            const emailBox = document.querySelector('.emailBox')
+            const emailText = document.querySelector('.emailText')
+            const emailPattern = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$/;
+
+            if (email.value.match(emailPattern)) {
+                emailBox.classList.add('valid');
+                emailBox.classList.remove('invalid');
+                emailText.innerHTML = "Your Email Address is valid";
+            } else {
+                emailBox.classList.add('invalid');
+                emailBox.classList.remove('valid');
+                emailText.innerHTML = "Must be a valid Email Address ";
+            }
+        });
+
+
+        password.addEventListener('input', () => {
+            const passBox = document.querySelector('.passBox')
+            const passText = document.querySelector('.passText')
+            const passPattern = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
+
+            if (password.value.match(passPattern)) {
+                passBox.classList.add('valid');
+                passBox.classList.remove('invalid');
+                passText.innerHTML = "Your Password is valid";
+            } else {
+                passBox.classList.add('invalid');
+                passBox.classList.remove('valid');
+                passText.innerHTML = "Enter alphanumeric password ";
+            }
+        });
+
+
+
+    </script>
+</body>
+
+</html>

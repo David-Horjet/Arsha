@@ -1,0 +1,356 @@
+/* responsiveness using media queries */
+
+@media (max-width: 1500px) {
+     .nav {
+       max-width: 1200px;
+       width: 90%;
+     }
+     .service-three {
+       height: fit-content;
+     }
+     .all {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .about-container {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .service {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .about-container .abt-all .div1 {
+       width: 100%;
+       padding-bottom: 20px;
+     }
+   
+     .about-container .abt-all .div2 {
+       width: 100%;
+     }
+
+     .jj{
+       max-width: 1200px;
+       width: 90%;
+     }
+
+     .contact .contain{
+      max-width: 1200px;
+      width: 90%;
+     }
+     .mainfootsec{
+       max-width: 1200px;
+       width: 90%;
+     }
+
+     
+   }
+   
+   @media (max-width: 1400px) {
+     .nav {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .all {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .about-container {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .service {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .about-container .abt-all .div1 {
+       width: 100%;
+       padding-bottom: 20px;
+     }
+   
+     .about-container .abt-all .div2 {
+       width: 100%;
+     }
+   
+     .contain {
+       max-width: 1200px;
+       width: 90%;
+     }
+   
+     .portfolio {
+       max-width: 1200px !important;
+       width: 90%;
+     }
+   
+     .team{
+       max-width: 1200px !important;
+       width: 90%;
+     }
+   
+     .pricing {
+       max-width: 1200px !important;
+       width: 90%;
+     }
+
+      .accord .contain{
+        max-width: 1200px !important;
+        width: 90%;
+      }
+
+      .jj{
+        max-width: 1200px;
+        width: 90%;
+      }
+   }
+   @media (max-width: 1200px){
+    .mainfootsec{
+      width: 90%;
+    }
+   }
+
+   @media (max-width: 992px) {
+     .nav {
+       max-width: 720px;
+     }
+   
+     .first {
+       display: block;
+     }
+   
+     .navbar {
+       display: none;
+       flex-direction: column-reverse;
+       margin-left: 0;
+       padding-top: 50px;
+     }
+   
+     #home {
+       height: fit-content;
+       text-align: center;
+     }
+     .mainvo-cont{
+       /* flex-direction: column; */
+       display: flex;
+     }
+   
+     .all {
+       flex-direction: column;
+       max-width: 720px;
+     }
+   
+     .all .div1 {
+       width: 100%;
+     }
+   
+     .all .div2 {
+       width: 100%;
+     }
+   
+     .all .div1 .butts {
+       justify-content: center;
+     }
+   
+     .about-container {
+       max-width: 720px;
+     }
+   
+     .about-container .abt-all {
+       flex-direction: column;
+     }
+   
+     .about-container .abt-all .div1 {
+       width: 100%;
+       padding-bottom: 20px;
+     }
+   
+     .about-container .abt-all .div2 {
+       width: 100%;
+     }
+     .service {
+       max-width: 720px;
+     }
+     .service-two {
+       display: grid;
+       grid-template-columns: 1fr 1fr ;
+     }
+     .texte {
+       max-width: 720px;
+       flex-direction: column;
+     }
+     .texte1{
+       width: 100%;
+     }
+     .call{
+       width: 100%;
+     }
+     .texte h3{
+       text-align: center;
+     }
+     .texte p{
+       text-align: center;
+     }
+     .texte button{
+       float: right;
+     }
+     .mainvo .contain {
+       max-width: 720px !important;
+       width: 90%;
+       flex-direction: column;
+     }
+     .vo {
+       width: 100%;
+     }
+     .sivo {
+       padding-top: 20px;
+     }
+     .team {
+       max-width: 720px !important;
+       width: 90%;
+     }
+     .theft {
+       grid-template-columns: 1fr;
+   }
+     .pricing-two {
+       grid-template-columns: 1fr;
+     }
+     .text h3{
+       text-align: center;
+     }
+     .text p{
+       text-align: center;
+     }
+     .service-three button{
+       justify-content: center;
+     }
+     .portfolio {
+       max-width: 720px !important;
+     }
+     .row {
+       grid-template-columns: repeat(2, 1fr);
+     }
+     .pricing {
+       max-width: 720px !important;
+       width: 90%;
+     }
+     .accord .contain{
+        max-width: 720px !important;
+        width: 90%;
+      }
+      .main-all{
+        padding: 0;
+      }
+      .jj{
+        max-width: 720px;
+        width: 90%;
+      }
+       .jj form{
+         width: 70%;
+       }
+       .contact .contain{
+        max-width: 720px;
+        width: 90%;
+       }
+       .mainform{
+         flex-direction: column;
+       }
+       .add{
+          width: 100%;
+       }
+       .add2{
+        width: 100%;
+         }
+         .mainfootsec{
+           grid-template-columns: 1fr 1fr;
+         }
+   }
+   
+   @media (max-width: 768px) {
+   
+     .nav {
+       max-width: 540px;
+     }
+     .all {
+       max-width: 540px;
+     }
+     .about-container {
+       max-width: 540px;
+     }
+     .service {
+       max-width: 540px;
+     }
+     .contain {
+       max-width: 540px;
+     }
+     .portfolio {
+       max-width: 540px !important;
+     }
+     .service-two {
+       display: grid;
+       grid-template-columns: 1fr;
+     }
+     .call{
+       text-align: center;
+     }
+   
+     .texte{
+       text-align: center;
+     }
+     .row {
+       grid-template-columns: repeat(1, 1fr);
+     }
+     .mainvo .contain {
+       max-width: 540px !important;
+       width: 90%;
+     }
+     .team {
+       max-width: 540px !important;
+       width: 90%;
+     }
+     .text p{
+       text-align: left;
+     }
+     .pricing {
+       max-width: 540px !important;
+       width: 90%;
+     }
+     .accord .contain{
+      max-width: 540px !important;
+      width: 90%;
+      }
+      .jj{
+        max-width: 540px;
+        width: 90%;
+      }
+      .jj form{
+        width: 100%;
+      }
+      .contact .contain{
+        max-width: 540px;
+        width: 90%;
+       }
+       .la {
+         grid-template-columns: 1fr;
+       }
+       .mainfootsec{
+        grid-template-columns: 1fr;
+      }
+   }
+   @media (max-width:400px) {
+     body{
+       overflow-x: hidden;
+     }
+    .theft{
+      display: none;
+    }
+    .jj button{
+      width: 40%;
+    }
+     
+   }
