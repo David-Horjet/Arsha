@@ -67,6 +67,13 @@ function navcont() {
      closeNav.style.display = 'none';
 }
 
+function sender() {
+     senden.style.display = 'block'
+}
+
+function senden() {
+     sender.style.display = 'block'
+}
 // Accordion Script
 
 var acc = document.getElementsByClassName("accordion");

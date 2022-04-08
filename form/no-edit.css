@@ -8,7 +8,7 @@ body{
     background-color: rgb(55,81,126);
 }
 .wrapper{
-    margin-top: 100px;
+    margin-top: 50px;
     height: 100%;
     background-color: rgb(55,81,126);
     align-items: center;
@@ -141,6 +141,20 @@ p a{
     transition: .3s;
 }
 .forgot a:hover{
+    color: rgb(71,178,228);
+}
+.dont{
+    text-align: center;
+    padding-top: 10px;
+}
+.dont a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transition: .3s;
+}
+.dont a:hover{
     color: rgb(71,178,228);
 }
 

@@ -127,12 +127,12 @@ nav ul li {
   padding: 0;
 }
 
-.dropdown-content li i{
+.dropdown-content li i {
   float: right;
 }
 
 .dropdown-content li a {
-  color: rgb(110,138,152);
+  color: rgb(110, 138, 152);
   font-size: 15px;
   font-weight: lighter;
 }
@@ -157,11 +157,17 @@ nav ul li {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown2:hover .dropdown-content2 {display: block;}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
 
 nav ul li:nth-child(8) {
   padding-top: 0;
@@ -197,13 +203,13 @@ nav ul li a:nth-child(1):active {
   transition: 0.3s;
   display: none;
   cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 20px;
-    bottom: 15px;
-    padding: 10px 0;
-    border-radius: 10px;
-    float: right;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  bottom: 15px;
+  padding: 10px 0;
+  border-radius: 10px;
+  float: right;
 }
 
 nav ul li button {
@@ -229,40 +235,40 @@ nav ul li button a:hover {
 }
 
 .navres {
-    display: none;
-    position: absolute;
-    top: 55px;
-    right: 15px;
-    bottom: 15px;
-    left: 15px;
-    padding: 10px 0;
-    border-radius: 10px;
-    background-color: #fff;
-    overflow-y: auto;
-    transition: 0.3s;
-    height: 80vh;
-    overflow-y: hidden;
+  display: none;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+  height: 80vh;
+  overflow-y: hidden;
 }
-.navres ul{
+.navres ul {
   display: block;
   padding: 10px 50px 10px 0px;
 }
-.navres li{
+.navres li {
   padding-bottom: 20px;
 }
-.navres a{
-  color: rgb(55,81,126);
+.navres a {
+  color: rgb(55, 81, 126);
   font-size: 15px;
   font-weight: 400;
 }
-.navres li button{
+.navres li button {
   width: 100%;
 }
-.navres li button a{
+.navres li button a {
   float: left;
   font-weight: bold;
 }
-.navres li button:hover a{
+.navres li button:hover a {
   color: white;
 }
 #home {
@@ -279,7 +285,7 @@ nav ul li button a:hover {
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  padding: 100px 0px;
+  padding: 60px 0px;
 }
 
 .all .div1 {
@@ -373,7 +379,7 @@ nav ul li button a:hover {
 #sponsors {
   padding: 12px 0;
   text-align: center;
-  background-color: rgb(243,245,250);
+  background-color: rgb(243, 245, 250);
 }
 
 .contain {
@@ -408,12 +414,9 @@ nav ul li button a:hover {
   transform: scale(1.1);
 }
 
-
 /* End sponsors styling */
 
-
 /* About section stylings */
-
 
 #about {
   padding: 60px 0px;
@@ -485,7 +488,7 @@ nav ul li button a:hover {
 }
 
 .ri-check-double-line {
-  color: rgb(87,185,230);
+  color: rgb(87, 185, 230);
   padding-right: 5px;
   font-weight: 400;
   font-size: 20px;
@@ -529,9 +532,9 @@ nav ul li button a:hover {
 
 /* Skills Styling */
 
-.mainvo{
+.mainvo {
   padding: 60px 0px;
-  transition:ease 1.5s;    
+  transition: ease 1.5s;
 }
 
 .mainvo .contain {
@@ -549,22 +552,23 @@ nav ul li button a:hover {
   align-items: center;
   padding: 0 10px;
 }
-.vo img, svg {
+.vo img,
+svg {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
-.sivo{
+.sivo {
   justify-content: center;
   padding: 0 10px;
 }
-.sivo h2{
+.sivo h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #37517e;
 }
-.sivo p{
+.sivo p {
   padding-top: 10px;
   font-style: italic;
   font-family: "Open Sans", sans-serif;
@@ -573,18 +577,18 @@ nav ul li button a:hover {
   font-weight: 400;
   line-height: 25px;
 }
-.mainprogress{
+.mainprogress {
   font-family: "jost", sans-serif;
 }
-.html{
+.html {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.sphtml{
+.sphtml {
   display: flex;
   justify-content: space-between;
 }
-.sphtml span{
+.sphtml span {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -594,31 +598,31 @@ nav ul li button a:hover {
   color: #37517e;
   font-size: 12px;
 }
-.sphtml :nth-child(1){
-  font-weight:600;
+.sphtml :nth-child(1) {
+  font-weight: 600;
 }
-.progress{
+.progress {
   background: #e8edf5;
   height: 10px;
 }
-.progressoverlay{
+.progressoverlay {
   height: 10px;
   transition: 0.9s;
   background-color: #4668a2;
 }
-.progressoverlay2{
+.progressoverlay2 {
   height: 10px;
   width: 80%;
   transition: 0.9s;
   background-color: #4668a2;
 }
-.progressoverlay3{
+.progressoverlay3 {
   height: 10px;
   width: 70%;
   transition: 0.9s;
   background-color: #4668a2;
 }
-.progressoverlay4{
+.progressoverlay4 {
   height: 10px;
   width: 60%;
   transition: 0.9s;
@@ -647,7 +651,7 @@ nav ul li button a:hover {
   /* margin: auto;
     width: 74%; */
 }
-.service .title{
+.service .title {
   text-align: center;
 }
 .service .title h1 {
@@ -695,7 +699,7 @@ nav ul li button a:hover {
 .Lorem-Ipsum {
   background-color: white;
   height: fit-content;
-  padding: 30px 5px 20px 30px;
+  padding: 30px;
   box-shadow: 0px 0 25px rgb(179, 178, 178);
   transition: all ease-in-out 0.4s;
 }
@@ -719,7 +723,7 @@ nav ul li button a:hover {
 .Sed-ut-perspici {
   background-color: white;
   height: fit-content;
-  padding: 30px 5px 20px 30px;
+  padding: 30px;
   box-shadow: 0px 0 25px rgb(179, 178, 178);
   transition: all ease-in-out 0.4s;
 }
@@ -743,7 +747,7 @@ nav ul li button a:hover {
 .Magni-Dolores {
   background-color: white;
   height: fit-content;
-  padding: 30px 5px 20px 30px;
+  padding: 30px;
   box-shadow: 0px 0 25px rgb(179, 178, 178);
   transition: all ease-in-out 0.4s;
 }
@@ -767,7 +771,7 @@ nav ul li button a:hover {
 .Nemo-Enim {
   background-color: white;
   height: fit-content;
-  padding: 30px 5px 20px 30px;
+  padding: 30px;
   box-shadow: 0px 0 25px rgb(179, 178, 178);
   transition: all ease-in-out 0.4s;
 }
@@ -823,7 +827,7 @@ nav ul li button a:hover {
   display: flex;
   align-items: center;
 }
-.texte1{
+.texte1 {
   width: 70%;
 }
 .texte h3 {
@@ -863,7 +867,6 @@ nav ul li button a:hover {
 }
 
 /* End service three styling */
-
 
 /* Portfolio styling */
 
@@ -931,11 +934,11 @@ nav ul li button a:hover {
   position: absolute;
 }
 
-.row{
-    padding: 50px 0px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+.row {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .row:after {
@@ -949,45 +952,45 @@ nav ul li button a:hover {
   position: relative;
 }
 
-.content img{
-    display: block;
-    width: 100%;
+.content img {
+  display: block;
+  width: 100%;
 }
 
-.details{
-    display: none;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: rgba(55, 81, 126, 0.8);
-    padding: 10px;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 0;
+.details {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(55, 81, 126, 0.8);
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
 }
 
-.content:hover .details{
-    display: inline-flex;
+.content:hover .details {
+  display: inline-flex;
 }
 
 .details .one h4,
-.details .one span{
-    color: white;
+.details .one span {
+  color: white;
 }
 
-.details p{
-    margin: 0;
+.details p {
+  margin: 0;
 }
 
-.bi-plus{
-    color: white;
-    font-size: 30px;
+.bi-plus {
+  color: white;
+  font-size: 30px;
 }
 
-.bi-link{
-    transform: rotateZ(45deg);
-    color: white;
-    font-size: 30px;
+.bi-link {
+  transform: rotateZ(45deg);
+  color: white;
+  font-size: 30px;
 }
 
 .show {
@@ -1014,9 +1017,7 @@ nav ul li button a:hover {
   color: white;
 }
 
-
 /* End Portfolio Styling */
-
 
 /* Pricing Stylings */
 
@@ -1235,12 +1236,12 @@ nav ul li button a:hover {
 
 /* Team Styling */
 
-#team{
-  background-color: rgb(243,245,250);
+#team {
+  background-color: rgb(243, 245, 250);
   padding: 60px 0px;
 }
 
-.team{
+.team {
   max-width: 1200px;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
@@ -1248,7 +1249,7 @@ nav ul li button a:hover {
   margin-left: auto;
   align-items: center;
 }
-.head-team{
+.head-team {
   font-style: normal;
   color: #37517e;
   justify-content: center;
@@ -1257,20 +1258,20 @@ nav ul li button a:hover {
   font-family: sans-serif;
   margin-bottom: 10px;
 }
-.line{
+.line {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
 }
-.bk{
+.bk {
   background-color: #b7bec0;
   border: 1.2px solid transparent;
   height: 1px;
   width: 2.7%;
   padding-left: 2.3%;
 }
-.be{
+.be {
   background-color: rgb(142, 142, 223);
   border-radius: 2px;
   border: 2px solid transparent;
@@ -1278,11 +1279,11 @@ nav ul li button a:hover {
   width: 4%;
   padding-left: 2.3%;
 }
-.team p{
-  color: rgb(97,97,97);
+.team p {
+  color: rgb(97, 97, 97);
   font-weight: 400;
 }
-.first-para{
+.first-para {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -1291,37 +1292,37 @@ nav ul li button a:hover {
   font-size: 16px;
 }
 
-.theft{
+.theft {
   justify-content: center;
   margin: auto;
   align-items: center;
   margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap:25px;
+  gap: 25px;
 }
-.img1{
+.img1 {
   margin-left: 15px;
   margin-top: 30px;
   height: 120px;
   border-radius: 100px;
 }
-.text{
+.text {
   padding: 20px;
 }
-.text h2{
-  color: rgb(55,81,126);
+.text h2 {
+  color: rgb(55, 81, 126);
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 5px;
 }
-.text h4{
-  color: rgb(97,97,97);
+.text h4 {
+  color: rgb(97, 97, 97);
   font-weight: 400;
   padding-bottom: 10px;
   position: relative;
 }
-.text h4::after{
+.text h4::after {
   content: "";
   top: 25px;
   left: 0;
@@ -1330,82 +1331,80 @@ nav ul li button a:hover {
   position: absolute;
   height: 1px;
   width: 50px;
-  background-color: rgb(203,214,233);
+  background-color: rgb(203, 214, 233);
 }
-.text .icons{
+.text .icons {
   padding: 10px;
 }
-.text .icons a{
-  background-color: rgb(239,242,248);
+.text .icons a {
+  background-color: rgb(239, 242, 248);
   border-radius: 50%;
   padding: 5px 10px;
 }
-.text .icons a i{
-  
-  color: rgb(55,81,126);
+.text .icons a i {
+  color: rgb(55, 81, 126);
 }
-.text .icons a:hover{
+.text .icons a:hover {
   background-color: blue;
 }
-.text .icons a:hover i{
+.text .icons a:hover i {
   color: white;
 }
-.cnt{
+.cnt {
   display: flex;
   background-color: white;
   border-radius: 3px;
   box-shadow: 3px 3px 3px 3px #e4e8e8;
-  transition: all .5s ease ;
+  transition: all 0.5s ease;
   padding: 20px;
 }
-.cnt:hover{
+.cnt:hover {
   transform: translateY(-10px);
 }
-.cnt-2{
-  display: flex;
-  background-color: white;
-  border-radius: 3px; 
-  box-shadow: 3px 3px 3px 3px #e4e8e8;
-  transition: all .5s ease ;
-  padding: 20px;
-}
-.cnt-2:hover{
-  transform: translateY(-10px);
-}
-.cnt-3{
+.cnt-2 {
   display: flex;
   background-color: white;
   border-radius: 3px;
   box-shadow: 3px 3px 3px 3px #e4e8e8;
-  transition: all .5s ease ;
+  transition: all 0.5s ease;
   padding: 20px;
 }
-.cnt-3:hover{
+.cnt-2:hover {
+  transform: translateY(-10px);
+}
+.cnt-3 {
+  display: flex;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px 3px #e4e8e8;
+  transition: all 0.5s ease;
+  padding: 20px;
+}
+.cnt-3:hover {
   transform: translateY(-10px);
 }
 
-.cnt-4{
+.cnt-4 {
   display: flex;
   background-color: white;
-  border-radius: 3px; 
+  border-radius: 3px;
   box-shadow: 3px 3px 3px 3px #e4e8e8;
-  transition: all .5s ease ;
+  transition: all 0.5s ease;
   padding: 20px;
 }
-.cnt-4:hover{
+.cnt-4:hover {
   transform: translateY(-10px);
 }
 
 /* End Team Styling */
 
-
 /* Frequently Accordion Styling */
 
-.accord{
+.accord {
   padding: 60px 0px;
-  background-color: rgb(243,245,250);
+  background-color: rgb(243, 245, 250);
 }
-.accord .contain{
+.accord .contain {
   max-width: 1200px;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
@@ -1413,8 +1412,7 @@ nav ul li button a:hover {
   margin-left: auto;
   align-items: center;
 }
-.accord h2{
-  
+.accord h2 {
   font-size: 32px;
   font-weight: bold;
   color: #37517e;
@@ -1422,59 +1420,58 @@ nav ul li button a:hover {
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.accord p{
+.accord p {
   text-align: center;
-  font-size:17px;
+  font-size: 17px;
   font-family: "Poppins", sans-serif;
-  font-weight:400;
+  font-weight: 400;
   line-height: 30px;
   color: #444444;
 }
-.main-all{
+.main-all {
   padding: 0 120px;
 }
 .accordion {
-  background-color:white;
+  background-color: white;
   display: flex;
   color: #444;
   cursor: pointer;
   padding: 18px;
   border: none;
   text-align: left;
-  border-radius:5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
 }
-.accordion .tra{
+.accordion .tra {
   font-family: cursive;
   color: #444444;
-  padding-left:15px;
-  padding-right:15px;
-
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.main{
+.main {
   margin-top: 20px;
   border-radius: 3px 0px 0px 0px;
 }
 
-.i{
+.i {
   font-size: 24px;
   position: absolute;
   color: #47b2e4;
   transform: rotate(-90deg);
-  border-radius:50px;
-  padding:3px 6px 3px 6px;
-  right:0;
-  top:0;
+  border-radius: 50px;
+  padding: 3px 6px 3px 6px;
+  right: 0;
+  top: 0;
 }
-.active .na:hover>i{
+.active .na:hover > i {
   color: #47b2e4;
-  padding:3px 6px 3px 6px;
+  padding: 3px 6px 3px 6px;
   transform: rotate(90deg);
 }
 
-.na{
+.na {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -1482,19 +1479,18 @@ nav ul li button a:hover {
   border-radius: 30px;
   line-height: 24px;
   font-weight: 500;
-  padding:0px 90px 0px 0px;
+  padding: 0px 90px 0px 0px;
   outline: none;
-  width:100%;
-  
+  width: 100%;
 }
-.bi-question-circle{
-  color: rgb(72,178,228);
+.bi-question-circle {
+  color: rgb(72, 178, 228);
   font-size: 20px;
   font-weight: bold;
   padding-right: 5px;
 }
-.na span{
-  color: rgb(55,81,126);
+.na span {
+  color: rgb(55, 81, 126);
   font-size: 18px;
 }
 .panel {
@@ -1503,11 +1499,11 @@ nav ul li button a:hover {
   background-color: white;
   width: 100%;
   max-height: 0;
-  border-radius: 0px 0px 5px 5px ;
+  border-radius: 0px 0px 5px 5px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-.panel p{
+.panel p {
   font-family: sans-serif;
   color: #444444;
   text-align: left;
@@ -1515,14 +1511,12 @@ nav ul li button a:hover {
 
 /* End Accordion Styling */
 
-
-
 /* contact styling */
 
-.contact{
+.contact {
   padding: 60px 0;
 }
-.contact .contain{
+.contact .contain {
   max-width: 1400px;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
@@ -1531,61 +1525,61 @@ nav ul li button a:hover {
   align-items: center;
 }
 
-.con{
+.con {
   display: flex;
   justify-content: center;
 }
-.contact h2{
+.contact h2 {
   font-size: 32px;
   font-weight: bold;
   color: #37517e;
   font-family: sans-serif;
 }
-.line{
+.line {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.line span{
+.line span {
   display: block;
   width: 50px;
-  height:0.4px;
+  height: 0.4px;
   background: #ddd;
   bottom: 1px;
   left: calc(50% - 60px);
 }
-.line span:nth-child(2){
+.line span:nth-child(2) {
   display: block;
   width: 40px;
   height: 3px;
   background: #47b2e4;
 }
-.contact .p{
+.contact .p {
   text-align: center;
-  font-size:15px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
-  font-weight:400;
+  font-weight: 400;
   line-height: 30px;
   color: #444444;
   padding-bottom: 20px;
 }
-.mainform{
+.mainform {
   display: flex;
   gap: 40px;
   width: 100%;
 }
-.loco h4{
+.loco h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #37517e;
 }
-.iconcon i{
+.iconcon i {
   display: block;
-  color: 54B8E6;
+  color: 54b8e6;
 }
-.iconcon{
+.iconcon {
   display: flex;
   font-size: 20px;
   color: #47b2e4;
@@ -1597,46 +1591,45 @@ nav ul li button a:hover {
   align-items: center;
   border-radius: 50px;
 }
-.iconcon :hover{
+.iconcon :hover {
   background: red;
   width: 44px;
   height: 44px;
 }
-.loco{
-   padding: 40px 0 0 40px;
+.loco {
+  padding: 40px 0 0 40px;
 }
-.loco p{
+.loco p {
   margin-bottom: 20px;
   font-size: 14px;
   color: #6182ba;
   padding: 0 0 10px 60px;
 }
-.add{
+.add {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
-  background:white;
+  background: white;
   width: 40%;
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
 }
-.add iframe{
+.add iframe {
   width: 100%;
   height: 290px;
 }
-.add2 label{
-  font-size:20px;
+.add2 label {
+  font-size: 20px;
   font-weight: 100;
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  
 }
-.la{
+.la {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   padding: 20px;
 }
-.la input{
+.la input {
   margin-top: 10px;
   width: 100%;
   font-size: 1rem;
@@ -1648,66 +1641,74 @@ nav ul li button a:hover {
   border: 1px solid #ced4da;
   height: 40px;
 }
-.la input ::placeholder{
+.la input::placeholder {
   font-size: 1rem;
+  padding-left: 10px;
 }
-.submit{
+.submit {
   padding: 20px;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
-.sub{
+.sub {
   margin-top: 20px;
   width: 100%;
   height: 40px;
-  font-size:14px;
+  font-size: 14px;
   font-weight: 400;
   color: #212529;
   border-radius: 5px;
   outline: none;
-  border: 1px solid #ced4da; 
+  border: 1px solid #ced4da;
 }
-.sub::placeholder{
-  font-size: 1rem;;
+.sub::placeholder {
+  font-size: 1rem;
+  padding-left: 10px;
 }
-.text textarea{
+.text textarea {
   min-height: calc(1.5em + 0.75rem + 2px);
   border-radius: 5px;
   font-size: 14px;
   width: 100%;
   color: #212529;
-  border: 1px solid #47b2e4; 
+  border: 1px solid #47b2e4;
   resize: vertical;
 }
-.add2{
+.add2 {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
-  background:white;
+  background: white;
   width: 60%;
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
 }
-.send{
+.send {
   display: flex;
-  height:20vh;
+  height: 20vh;
   align-items: center;
   justify-content: center;
 }
-.send button{
+.send button {
   background: #47b2e4;
-  height:50px;
+  height: 50px;
   border: none;
   padding: 12px 34px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
   cursor: pointer;
-  font-size:15px;
+  font-size: 15px;
 }
-.join{
+.send button span:nth-child(1) {
+  display: block;
+}
+.send button span:nth-child(2) {
+  display: none;
+}
+.join {
   margin-top: 20px;
-  background-color: rgb(243,245,250);
+  background-color: rgb(243, 245, 250);
   padding: 60px 0 0 0;
 }
-.jj{
+.jj {
   max-width: 1400px;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
@@ -1715,7 +1716,7 @@ nav ul li button a:hover {
   margin-left: auto;
   align-items: center;
 }
-.jj h4{
+.jj h4 {
   font-size: 24px;
   margin: 0 0 20px 0;
   padding: 0;
@@ -1725,13 +1726,13 @@ nav ul li button a:hover {
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
-.jj p{
-  font-size:15px;
+.jj p {
+  font-size: 15px;
   text-align: center;
   color: #444444;
   padding-bottom: 20px;
 }
-.jj form{
+.jj form {
   display: flex;
   width: 50%;
   background-color: white;
@@ -1740,28 +1741,27 @@ nav ul li button a:hover {
   border-radius: 30px;
   height: 40px;
 }
-.jj input{
+.jj input {
   width: 75%;
   border: none;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 30px 0 0 30px;
   outline: none;
   padding-left: 10px;
 }
-.jj button{
+.jj button {
   width: 25%;
-  background-color: rgb(71,178,228);
+  background-color: rgb(71, 178, 228);
   color: white;
   font-size: 20px;
   border: none;
   border-radius: 30px;
+  cursor: pointer;
 }
-
-
 
 /* footer styling */
 
-footer{
+footer {
   padding: 60px 0;
 }
 
@@ -1773,124 +1773,122 @@ footer{
   margin-left: auto;
   align-items: center;
 }
-.last-div{
+.last-div {
   margin-top: 20px;
   background-color: white;
 }
-.mainfootsec{
+.mainfootsec {
   display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
   background-color: white;
   width: 80%;
   justify-content: center;
   text-align: center;
 }
-.mainfootsec ul{
+.mainfootsec ul {
   list-style: none;
 }
-.al{
+.al {
   display: flex;
   justify-content: space-between;
   width: 100%;
   transition: 0.3s;
 }
-.as{
+.as {
   text-align: left;
   padding-top: 30px;
   transition: 0.3s;
 }
-.as h1{
+.as h1 {
   font-size: 28px;
   line-height: 1;
   font-weight: 600;
   color: #37517e;
-  font-family:"jost" sans-serif;
+  font-family: "jost" sans-serif;
   padding-bottom: 20px;
 }
-.as p{
+.as p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Jost", sans-serif;
   color: #5e5e5e;
   margin-bottom: 30px;
 }
-.as span{
+.as span {
   font-size: 14px;
   line-height: 24px;
   font-family: "Jost", sans-serif;
   color: #5e5e5e;
 }
-.as span .bold{
+.as span .bold {
   font-weight: 800;
 }
-.us h3{
-  font-size:20px;
+.us h3 {
+  font-size: 20px;
   line-height: 1;
-  font-weight:500;
+  font-weight: 500;
   color: #37517e;
-  font-family:"jost" sans-serif;
+  font-family: "jost" sans-serif;
   padding-top: 10px;
   padding-bottom: 15px;
 }
-.us{
-   text-align: left;
-   padding-top: 30px;
-   /* width:200%; */
+.us {
+  text-align: left;
+  padding-top: 30px;
+  /* width:200%; */
 }
-.us li{
+.us li {
   padding-bottom: 30px;
 }
-.us a{
+.us a {
   text-decoration: none;
   font-size: 14px;
   font-family: "Jost", sans-serif;
   color: #5e5e5e;
-
 }
-.us p{
+.us p {
   color: #5e5e5e;
 }
-.bi-chevron-right{
+.bi-chevron-right {
   font-size: 13px;
   font-weight: 800;
-  color: rgb(71,178,228);
+  color: rgb(71, 178, 228);
 }
-.us li span{
+.us li span {
   color: #37517e;
   font-weight: 400;
   font-size: 20px;
-  font-family:"jost" sans-serif;
-  padding-right:5px;
+  font-family: "jost" sans-serif;
+  padding-right: 5px;
 }
-.our{
+.our {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-.h2{
+.h2 {
   text-align: left;
   padding-top: 30px;
   transition: 0.3s;
 }
-.h2 h3{
+.h2 h3 {
   font-size: 28px;
   line-height: 1;
   font-weight: 600;
   color: #37517e;
-  font-family:"jost" sans-serif;
+  font-family: "jost" sans-serif;
 }
-.h2 p{
+.h2 p {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   color: #444444;
-
 }
-.iccon{
+.iccon {
   display: flex;
   margin-top: 20px;
 }
-.iccon i{
+.iccon i {
   font-size: 18px;
   background: #47b2e4;
   color: #fff;
@@ -1902,209 +1900,10 @@ footer{
   cursor: pointer;
   margin-right: 10px;
 }
-.iccon i:hover{
+.iccon i:hover {
   color: #fff;
   background-color: rgb(42, 91, 190);
-  transition: all .5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
-
 /* End contact Styling */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
